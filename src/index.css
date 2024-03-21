@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='text'],
+input[type='number'],
+textarea {
+  @apply w-[350px] border my-4 py-2 px-3 rounded-md;
+}
+textarea {
+  height: 140px;
+}
